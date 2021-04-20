@@ -8,13 +8,10 @@ Authors: [Sumanth Dathathri](https://dathath.github.io/), [Andrea Madotto](https
 
 PPLM allows a user to flexibly plug in one or more tiny attribute models representing the desired steering objective into a large, unconditional language model (LM). The method has the key property that it uses the LM _as is_—no training or fine-tuning is required—which enables researchers to leverage best-in-class LMs even if they do not have the extensive hardware required to train them.
 
-See also our [arXiv paper](https://arxiv.org/abs/1912.02164), [blog post](https://eng.uber.com/pplm), and try it out for yourself with no setup using the [Colab notebook](https://colab.research.google.com/drive/1Ux0Z4-ruiVtJ6jUk98uk6FqfvGHCOYL3).
-
-## Setup
-
-```bash
-pip install -r requirements.txt
-```
+See below the related 
+paper [arXiv paper](https://arxiv.org/abs/1912.02164)
+[blog post](https://eng.uber.com/pplm)
+[Colab notebook](https://colab.research.google.com/drive/1Z3yJ5cYDlGgRcalzXFR84L9Ivz27xyyz?authuser=4#scrollTo=0DtqU_X3wKPc).
 
 ## Citation
 ```
@@ -61,4 +58,3 @@ python run_pplm.py -D sentiment --class_label 2 --cond_text "My dog died" --leng
 2. Use `--class_label 3` for negative, and `--class_label 2` for positive
 
 
-The discriminator and the GPT-2 model in the root directory are different from those used for the analysis in the paper. Code and models corresponding to the paper can be found [here](https://github.com/uber-research/PPLM/tree/master/paper_code).
