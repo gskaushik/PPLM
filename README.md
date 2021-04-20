@@ -1,12 +1,13 @@
 # PPLM
 
 This repository contains code to run the Plug and Play Language Model (PPLM), as described in **[arXiv paper](https://arxiv.org/abs/1912.02164)**.
-![header image](./imgs/headfigure.png)
 
 ## Plug and Play Language Models: a Simple Approach to Controlled Text Generation
 Authors: [Sumanth Dathathri](https://dathath.github.io/), [Andrea Madotto](https://andreamad8.github.io/), Janice Lan, Jane Hung, Eric Frank, [Piero Molino](https://w4nderlu.st/), [Jason Yosinski](http://yosinski.com/), and [Rosanne Liu](http://www.rosanneliu.com/)
 
 PPLM allows a user to flexibly plug in one or more tiny attribute models representing the desired steering objective into a large, unconditional language model (LM). The method has the key property that it uses the LM _as is_—no training or fine-tuning is required—which enables researchers to leverage best-in-class LMs even if they do not have the extensive hardware required to train them.
+
+![header image](./imgs/headfigure.png)
 
 See below the related 
 paper [arXiv paper](https://arxiv.org/abs/1912.02164)
