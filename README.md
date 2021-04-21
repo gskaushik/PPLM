@@ -10,9 +10,8 @@ PPLM allows a user to flexibly plug in one or more tiny attribute models represe
 ![header image](./imgs/headfigure.png)
 
 See below the related 
-paper [arXiv paper](https://arxiv.org/abs/1912.02164)
-[blog post](https://eng.uber.com/pplm)
-[Colab notebook](https://colab.research.google.com/drive/1Z3yJ5cYDlGgRcalzXFR84L9Ivz27xyyz?authuser=4#scrollTo=0DtqU_X3wKPc).
+paper --> [arXiv paper](https://arxiv.org/abs/1912.02164)
+Colab --> [Colab notebook](https://drive.google.com/file/d/1Z3yJ5cYDlGgRcalzXFR84L9Ivz27xyyz/view?usp=sharing).
 
 ## Citation
 ```
